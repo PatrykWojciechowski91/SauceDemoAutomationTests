@@ -29,16 +29,11 @@ export class LoginPage {
         return this;
     }
 
-    loginAttempt(username: string, password: string) {
+    fillAndLogin(username: string, password: string) {
         this
           .fillUsername(username)
           .fillPassword(password)
           .clickLoginButton();
-        return this;
-    }
-
-    fillAndLogin(username: string, password: string) {
-        this.loginAttempt(username, password);
         return new ProductsPage();
     }
 
