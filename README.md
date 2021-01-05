@@ -1,2 +1,7 @@
 # SauceDemoAutomationTests
-Automation tests for website SauceDemo
+Automation tests for SauceDemo
+
+Steps to run tests:
+- clone repository
+- install dependencies: `npm install`
+- 

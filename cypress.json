@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://www.saucedemo.com/",
+    "testFiles": "**/*spec.ts",
+    "integrationFolder": "cypress/specs",
+    "viewportWidth": 1280,
+    "viewportHeight": 720
+}

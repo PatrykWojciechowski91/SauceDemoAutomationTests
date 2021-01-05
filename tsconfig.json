@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "sourceMap": true,
+      "allowJs": true,
+      "baseUrl": "../node_modules",
+      "module": "commonjs",
+      "target": "es5",
+      "lib": [
+        "dom",
+        "es7"
+      ],
+      "types": [
+        "cypress"
+      ],
+      "jsx": "react",
+      "experimentalDecorators": true
+    },
+    "compileOnSave": false
+  }
